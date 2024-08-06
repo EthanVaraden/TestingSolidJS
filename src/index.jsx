@@ -7,6 +7,7 @@ import ButtonsPage from './pages/ButtonsPage';
 import NotFound from './pages/NotFound';
 
 import coreExtensionModuleUrl from './AppCoreExtensions.js?importChunkUrl';
+import TextLabel from './components/TestComponents/TextLabel';
 
 Config.debug = true;
 Config.fontSettings.fontFamily = 'Ubuntu';
@@ -24,7 +25,7 @@ Config.rendererOptions = {
 
 render(() =>  (
   <HashRouter root={App}>
-    <Route path="/" component={HelloWorld} />
+    <Route path="/" component={TextLabel} />
     <Route path="/text" component={TextPage} />
     <Route path="/buttons" component={ButtonsPage} />
     <Route path="/*all" component={NotFound} />
