@@ -12,7 +12,8 @@
     "preview": "vite preview --open --port 8080",
     "test": "vitest",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_38e23c42a22c5f7"
   },
   "author": "",
   "license": "ISC",
@@ -37,6 +38,7 @@
     "@storybook/html": "^8.0.9",
     "@storybook/html-vite": "^8.0.9",
     "@vitest/browser": "^1.5.0",
+    "chromatic": "^11.7.0",
     "jsdom": "^24.0.0",
     "playwright": "^1.43.1",
     "storybook": "^8.0.9",
